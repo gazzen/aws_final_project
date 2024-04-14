@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Collection</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            Music Collection
+        </a>
+        <a class="nav-link text-white" href="#">Sign Out</a>
+    </nav>
+
+    <!-- Heading -->
+    <div class="container mt-4">
+        <h1 class="text-center">Music Collection</h1>
+
+        <!-- Add Album Button and Search Box -->
+        <div class="text-center mt-3">
+            <input type="text" class="form-control d-inline w-50" placeholder="Search...">
+            <!-- <button class="btn btn-primary ml-2">Add Album</button> -->
+            <!-- ADD album -->
+            <a href="add_album.html" class="btn btn-info">Add Album</a>
+
+
+        </div>
+
+        <!-- Grid for Albums -->
+        <div class="row mt-4">
+            <!-- Sample Grid Item -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">The Neil Diamond Collection</h5>
+                        <p class="card-text">Date: 2022-01-15</p>
+                        <a href="edit_album.html" class="btn btn-info">Edit</a>
+                        <!-- <button class="btn btn-info">Edit</button> -->
+                        <button class="btn btn-danger ml-2">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat Grid Items for Each Album -->
+            <!-- You can dynamically generate these cards with data from the backend -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Greatest Hits</h5>
+                        <p class="card-text">Date: 2022-02-20</p>
+                        <!-- <button class="btn btn-info">Edit</button> -->
+                        <a href="edit_album.html" class="btn btn-info">Edit</a>
+
+                        <button class="btn btn-danger ml-2">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Captain Fantastic and the Brown Dirt Cowboy</h5>
+                        <p class="card-text">Date: 2022-03-10</p>
+                        <!-- <button class="btn btn-info">Edit</button> -->
+                        <a href="edit_album.html" class="btn btn-info">Edit</a>
+
+                        <button class="btn btn-danger ml-2">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Honky Chateau</h5>
+                        <p class="card-text">Date: 2022-04-05</p>
+                        <!-- <button class="btn btn-info">Edit</button> -->
+                        <a href="edit_album.html" class="btn btn-info">Edit</a>
+
+                        <button class="btn btn-danger ml-2">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Goodbye Yellow Brick Road</h5>
+                        <p class="card-text">Date: 2022-05-18</p>
+                        <!-- <button class="btn btn-info">Edit</button> -->
+                        <a href="edit_album.html" class="btn btn-info">Edit</a>
+
+                        <button class="btn btn-danger ml-2">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Tumbleweed Connection</h5>
+                        <p class="card-text">Date: 2022-06-30</p>
+                        <!-- <button class="btn btn-info">Edit</button> -->
+                        <a href="edit_album.html" class="btn btn-info">Edit</a>
+
+                        <button class="btn btn-danger ml-2">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
